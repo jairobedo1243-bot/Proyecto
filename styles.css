@@ -9,6 +9,9 @@
 
 
 body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
     font-family: Arial, sans-serif;
     background-image: url("../images/fondo.jpg"); 
     background-size: cover;
@@ -67,6 +70,7 @@ body{
 
 main{
     padding: 30px;
+    flex: 1;
 }
 
 .bienvenida{
